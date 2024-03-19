@@ -1,0 +1,109 @@
+{
+    "type": "Collection",
+    "id": "ukcp",
+    "stac_extensions": [],
+    "stac_version": "1.0.0",
+    "title": "",
+    "description": "UKCP",
+    "keywords": [],
+    "license": "ogl-3.0",
+    "providers": [],
+    "summaries": {
+        "Conventions": [
+            "CF-1.7"
+        ],
+        "references": [
+            "https://ukclimateprojections.metoffice.gov.uk"
+        ],
+        "variable_long_name": [
+            "Cloud area fraction"
+        ],
+        "dataset_id": [
+            "ukcp.land-cpm.uk.5km.rcp85.01.clt.day.v20210615"
+        ],
+        "variable_units": [
+            "%"
+        ],
+        "project": [
+            "UKCP18"
+        ],
+        "cf_standard_name": [
+            "cloud_area_fraction"
+        ],
+        "collection": [
+            "land-cpm"
+        ],
+        "resolution": [
+            "5km"
+        ],
+        "version": [
+            "v20210615"
+        ],
+        "frequency": [
+            "day"
+        ],
+        "institution": [
+            "Met Office Hadley Centre (MOHC), FitzRoy Road, Exeter, Devon, EX1 3PB, UK."
+        ],
+        "scenario": [
+            "rcp85"
+        ],
+        "domain": [
+            "uk"
+        ],
+        "kerchunk_url": [
+            "https://kerchunk.ceda.ac.uk/ukcp.land-cpm.uk.5km.rcp85.01.clt.day.v20210615.json"
+        ],
+        "var_id": [
+            "clt"
+        ]
+    },
+    "extent": {
+        "spatial": {
+            "bbox": [
+                [
+                    -12.773760091513395,
+                    49.313714699819684,
+                    3.4064378030598164,
+                    60.526678590103984
+                ]
+            ]
+        },
+        "temporal": {
+            "interval": [
+                [
+                    "2060-12-01T12:00:00.000Z",
+                    "2080-11-30T12:00:00.000Z"
+                ]
+            ]
+        }
+    },
+    "links": [
+        {
+            "rel": "self",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/ukcp.json"
+        },
+        {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        },
+        {
+            "rel": "items",
+            "type": "application/geo+json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/ukcp/items.json"
+        },
+        {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        },
+        {
+            "rel": "items",
+            "href": "https://stac-elasticsearch-stoc-ingest.130.246.130.221.nip.io/collections/ukcp/items",
+            "type": "application/geo+json"
+        }
+    ],
+    "assets": {}
+}

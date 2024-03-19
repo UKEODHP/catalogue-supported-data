@@ -1,0 +1,251 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "stac_extensions": [],
+    "id": "neodc.sentinel_ard.data.sentinel_2.2023.11.20.S2A_20231120_latn546lonw0037_T30UVF_ORB037_20231120132420_utm30n_osgb",
+    "collection": "sentinel2_ard",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -4.468960481954303,
+                    54.05083536024436
+                ],
+                [
+                    -4.42417101082826,
+                    54.14930925234511
+                ],
+                [
+                    -4.357232649167247,
+                    54.294475300484905
+                ],
+                [
+                    -4.290678692408249,
+                    54.43986501693493
+                ],
+                [
+                    -4.223090383924905,
+                    54.58510978577774
+                ],
+                [
+                    -4.155299947949959,
+                    54.73032769547677
+                ],
+                [
+                    -4.086823876121027,
+                    54.87542704768335
+                ],
+                [
+                    -4.018070142010887,
+                    55.02056866221084
+                ],
+                [
+                    -4.008704517959155,
+                    55.04015078699832
+                ],
+                [
+                    -2.847246726272533,
+                    55.04689020612033
+                ],
+                [
+                    -2.850890036308066,
+                    54.06011138907911
+                ],
+                [
+                    -4.468960481954303,
+                    54.05083536024436
+                ]
+            ]
+        ]
+    },
+    "bbox": [
+        -4.468960481954303,
+        54.05083536024436,
+        -2.847246726272533,
+        55.04689020612033
+    ],
+    "properties": {
+        "datetime": "2023-11-20T11:23:51Z",
+        "start_datetime": "2023-11-20T11:23:51Z",
+        "end_datetime": "2023-11-20T11:23:51Z",
+        "EPSG": "27700",
+        "esa_file_name": "S2A_MSIL1C_20231120T112351_N0509_R037_T30UVF_20231120T132420",
+        "Instrument Family Name": "Multi-Spectral Instrument",
+        "Instrument Family Name Abbreviation": "MSI",
+        "Platform Number": "2A",
+        "NSSDC Identifier": "2015-000A",
+        "Start Relative Orbit Number": "037",
+        "Start Orbit Number": "043935",
+        "Ground Tracking Direction": "descending",
+        "Instrument Mode": null,
+        "Cloud Coverage Assessment": "37.725362031379",
+        "Product Type": "S2MSI1C",
+        "Datatake Type": "INS-NOBS",
+        "file_count": 8,
+        "size": 1734859079,
+        "instance_id": "neodc.sentinel_ard.data.sentinel_2.2023.11.20.S2A_20231120_latn546lonw0037_T30UVF_ORB037_20231120132420_utm30n_osgb",
+        "updated": "2024-02-07T13:04:40.120010Z",
+        "created": "2024-02-07T13:04:40.120010Z"
+    },
+    "links": [
+        {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/sentinel2_ard/items/neodc.sentinel_ard.data.sentinel_2.2023.11.20.S2A_20231120_latn546lonw0037_T30UVF_ORB037_20231120132420_utm30n_osgb.json"
+        },
+        {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/sentinel2_ard.json"
+        },
+        {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/sentinel2_ard.json"
+        },
+        {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        }
+    ],
+    "assets": {
+        "cloud": {
+            "href": "https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2023/11/20/S2A_20231120_latn546lonw0037_T30UVF_ORB037_20231120132420_utm30n_osgb_clouds.tif",
+            "size": 1320321,
+            "location": "on_disk",
+            "roles": [
+                "data"
+            ]
+        },
+        "cloud_probability": {
+            "href": "https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2023/11/20/S2A_20231120_latn546lonw0037_T30UVF_ORB037_20231120132420_utm30n_osgb_clouds_prob.tif",
+            "size": 51231931,
+            "location": "on_disk",
+            "roles": [
+                "data"
+            ]
+        },
+        "cog": {
+            "href": "https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2023/11/20/S2A_20231120_latn546lonw0037_T30UVF_ORB037_20231120132420_utm30n_osgb_vmsk_sharp_rad_srefdem_stdsref.tif",
+            "size": 1679140371,
+            "location": "on_disk",
+            "roles": [
+                "data"
+            ],
+            "eo:bands": [
+                {
+                    "central_wavelength": 496.6,
+                    "common_name": "blue",
+                    "description": "Blue",
+                    "full_width_half_max": 0.07,
+                    "name": "B02"
+                },
+                {
+                    "central_wavelength": 560,
+                    "common_name": "green",
+                    "description": "Green",
+                    "full_width_half_max": 0.04,
+                    "name": "B03"
+                },
+                {
+                    "central_wavelength": 664.5,
+                    "common_name": "red",
+                    "description": "Red",
+                    "full_width_half_max": 0.03,
+                    "name": "B04"
+                },
+                {
+                    "central_wavelength": 703.9,
+                    "common_name": "rededge",
+                    "description": "Visible and Near Infrared",
+                    "full_width_half_max": 0.02,
+                    "name": "B05"
+                },
+                {
+                    "central_wavelength": 740.2,
+                    "common_name": "rededge",
+                    "description": "Visible and Near Infrared",
+                    "full_width_half_max": 0.02,
+                    "name": "B06"
+                },
+                {
+                    "central_wavelength": 782.5,
+                    "common_name": "rededge",
+                    "description": "Visible and Near Infrared",
+                    "full_width_half_max": 0.02,
+                    "name": "B07"
+                },
+                {
+                    "central_wavelength": 835.1,
+                    "common_name": "nir",
+                    "description": "Visible and Near Infrared",
+                    "full_width_half_max": 0.11,
+                    "name": "B08"
+                },
+                {
+                    "central_wavelength": 864.8,
+                    "common_name": "nir08",
+                    "description": "Visible and Near Infrared",
+                    "full_width_half_max": 0.02,
+                    "name": "B08a"
+                },
+                {
+                    "central_wavelength": 1613.7,
+                    "common_name": "swir16",
+                    "description": "Short Wave Infrared",
+                    "full_width_half_max": 0.09,
+                    "name": "B11"
+                },
+                {
+                    "central_wavelength": 2202.4,
+                    "common_name": "swir22",
+                    "description": "Short Wave Infrared",
+                    "full_width_half_max": 0.18,
+                    "name": "B12"
+                }
+            ]
+        },
+        "metadata": {
+            "href": "https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2023/11/20/S2A_20231120_latn546lonw0037_T30UVF_ORB037_20231120132420_utm30n_osgb_vmsk_sharp_rad_srefdem_stdsref_meta.xml",
+            "size": 18460,
+            "location": "on_disk",
+            "roles": [
+                "metadata"
+            ]
+        },
+        "saturated_pixels": {
+            "href": "https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2023/11/20/S2A_20231120_latn546lonw0037_T30UVF_ORB037_20231120132420_utm30n_osgb_sat.tif",
+            "size": 1774631,
+            "location": "on_disk",
+            "roles": [
+                "data"
+            ]
+        },
+        "thumbnail": {
+            "href": "https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2023/11/20/S2A_20231120_latn546lonw0037_T30UVF_ORB037_20231120132420_utm30n_osgb_vmsk_sharp_rad_srefdem_stdsref_thumbnail.jpg",
+            "size": 83181,
+            "location": "on_disk",
+            "roles": [
+                "thumbnail"
+            ]
+        },
+        "topographic_shadow": {
+            "href": "https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2023/11/20/S2A_20231120_latn546lonw0037_T30UVF_ORB037_20231120132420_utm30n_osgb_toposhad.tif",
+            "size": 965623,
+            "location": "on_disk",
+            "roles": [
+                "data"
+            ]
+        },
+        "valid_pixels": {
+            "href": "https://dap.ceda.ac.uk/neodc/sentinel_ard/data/sentinel_2/2023/11/20/S2A_20231120_latn546lonw0037_T30UVF_ORB037_20231120132420_utm30n_osgb_valid.tif",
+            "size": 324561,
+            "location": "on_disk",
+            "roles": [
+                "data"
+            ]
+        }
+    }
+}

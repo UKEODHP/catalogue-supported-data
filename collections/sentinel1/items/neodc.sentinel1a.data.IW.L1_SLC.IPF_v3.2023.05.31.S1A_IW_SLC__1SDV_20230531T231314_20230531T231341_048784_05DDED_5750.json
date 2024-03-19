@@ -1,0 +1,137 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "stac_extensions": [],
+    "id": "neodc.sentinel1a.data.IW.L1_SLC.IPF_v3.2023.05.31.S1A_IW_SLC__1SDV_20230531T231314_20230531T231341_048784_05DDED_5750",
+    "collection": "sentinel1",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    98.549194,
+                    -0.3047
+                ],
+                [
+                    96.316711,
+                    0.175672
+                ],
+                [
+                    96.657623,
+                    1.801169
+                ],
+                [
+                    98.890503,
+                    1.325967
+                ],
+                [
+                    98.549194,
+                    -0.3047
+                ]
+            ]
+        ]
+    },
+    "bbox": [
+        96.316711,
+        -0.3047,
+        98.890503,
+        1.801169
+    ],
+    "properties": {
+        "datetime": "2023-05-31T23:13:27.500000",
+        "start_datetime": "2023-05-31T23:13:14",
+        "end_datetime": "2023-05-31T23:13:41",
+        "platform": "sentinel1a",
+        "instrument_mode": "IW",
+        "processing_level": "L1",
+        "product_type": "SLC",
+        "processing_software": "IPF",
+        "product_version": "v3",
+        "orbit": "048784",
+        "Instrument Family Name": "Synthetic Aperture Radar",
+        "Instrument Family Name Abbreviation": "SAR",
+        "Platform Number": "A",
+        "NSSDC Identifier": "2014-016A",
+        "Start Relative Orbit Number": "62",
+        "Start Orbit Number": "48784",
+        "Instrument Mode": "IW",
+        "Slice Number": "24",
+        "Total Slices": "25",
+        "Polarisation": [
+            "VV",
+            "VH"
+        ],
+        "Processing Version": "003.61",
+        "Orbit Direction": "DESCENDING",
+        "EPSG": "4326",
+        "file_count": 5,
+        "size": 3576686690,
+        "instance_id": "neodc.sentinel1a.data.IW.L1_SLC.IPF_v3.2023.05.31.S1A_IW_SLC__1SDV_20230531T231314_20230531T231341_048784_05DDED_5750",
+        "created": "2023-12-06T10:08:56.794084Z",
+        "updated": "2023-12-06T10:08:56.794084Z"
+    },
+    "links": [
+        {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/sentinel1/items/neodc.sentinel1a.data.IW.L1_SLC.IPF_v3.2023.05.31.S1A_IW_SLC__1SDV_20230531T231314_20230531T231341_048784_05DDED_5750.json"
+        },
+        {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/sentinel1.json"
+        },
+        {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/sentinel1.json"
+        },
+        {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        }
+    ],
+    "assets": {
+        "S1A_IW_SLC__1SDV_20230531T231314_20230531T231341_048784_05DDED_5750.manifest": {
+            "href": "https://dap.ceda.ac.uk/neodc/sentinel1a/data/IW/L1_SLC/IPF_v3/2023/05/31/S1A_IW_SLC__1SDV_20230531T231314_20230531T231341_048784_05DDED_5750.manifest",
+            "size": 43150,
+            "location": "on_disk",
+            "role": [
+                "metadata"
+            ]
+        },
+        "S1A_IW_SLC__1SDV_20230531T231314_20230531T231341_048784_05DDED_5750.metadata_only.zip": {
+            "href": "https://dap.ceda.ac.uk/neodc/sentinel1a/data/IW/L1_SLC/IPF_v3/2023/05/31/S1A_IW_SLC__1SDV_20230531T231314_20230531T231341_048784_05DDED_5750.metadata_only.zip",
+            "size": 7035967,
+            "location": "on_disk",
+            "role": [
+                "metadata"
+            ]
+        },
+        "S1A_IW_SLC__1SDV_20230531T231314_20230531T231341_048784_05DDED_5750.png": {
+            "href": "https://dap.ceda.ac.uk/neodc/sentinel1a/data/IW/L1_SLC/IPF_v3/2023/05/31/S1A_IW_SLC__1SDV_20230531T231314_20230531T231341_048784_05DDED_5750.png",
+            "size": 4543449,
+            "location": "on_disk",
+            "role": [
+                "thumbnail"
+            ]
+        },
+        "S1A_IW_SLC__1SDV_20230531T231314_20230531T231341_048784_05DDED_5750.zip": {
+            "href": "https://dap.ceda.ac.uk/neodc/sentinel1a/data/IW/L1_SLC/IPF_v3/2023/05/31/S1A_IW_SLC__1SDV_20230531T231314_20230531T231341_048784_05DDED_5750.zip",
+            "size": 3565063987,
+            "location": "on_disk",
+            "role": [
+                "data"
+            ]
+        },
+        "S1A_IW_SLC__1SDV_20230531T231314_20230531T231341_048784_05DDED_5750_checksum": {
+            "href": "https://dap.ceda.ac.uk/neodc/sentinel1a/data/IW/L1_SLC/IPF_v3/2023/05/31/S1A_IW_SLC__1SDV_20230531T231314_20230531T231341_048784_05DDED_5750_checksum",
+            "size": 137,
+            "location": "on_disk",
+            "role": [
+                "metadata"
+            ]
+        }
+    }
+}

@@ -1,0 +1,271 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "stac_extensions": [],
+    "id": "CORDEX.output.EUR-11.MOHC.MOHC-HadGEM2-ES.rcp85.r1i1p1.MOHC-HadREM3-GA7-05.v1.day.tasmin.v20200330",
+    "collection": "cordex",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -44.59386834729085,
+                    21.98783123900341
+                ],
+                [
+                    64.96437779289664,
+                    21.98783123900341
+                ],
+                [
+                    64.96437779289664,
+                    72.58500263822741
+                ],
+                [
+                    -44.59386834729085,
+                    72.58500263822741
+                ],
+                [
+                    -44.59386834729085,
+                    21.98783123900341
+                ]
+            ]
+        ]
+    },
+    "bbox": [
+        -44.59386834729085,
+        21.98783123900341,
+        64.96437779289664,
+        72.58500263822741
+    ],
+    "properties": {
+        "datetime": "2060-06-26T00:00:00Z",
+        "start_datetime": "2021-01-01T12:00:00Z",
+        "end_datetime": "2099-12-19T12:00:00Z",
+        "access": [
+            "HTTPServer"
+        ],
+        "index_node": null,
+        "latest": true,
+        "pid": null,
+        "replica": false,
+        "retracted": false,
+        "file_count": 10,
+        "size": 0,
+        "variable_id": "tasmin",
+        "instance_id": "CORDEX.output.EUR-11.MOHC.MOHC-HadGEM2-ES.rcp85.r1i1p1.MOHC-HadREM3-GA7-05.v1.day.tasmin.v20200330",
+        "variable_long_name": "Daily Minimum Near-Surface Air Temperature",
+        "variable_units": "K",
+        "cf_standard_name": "air_temperature",
+        "driving_experiment_name": "rcp85",
+        "rcm_version": "v1",
+        "experiment_familys": null,
+        "product": "output",
+        "domain": "EUR-11",
+        "driving_model": "MOHC-HadGEM2-ES",
+        "time_frequency": "day",
+        "experiment": "rcp85",
+        "project": "CORDEX",
+        "institute": "MOHC",
+        "ensemble": "r1i1p1",
+        "rcm_name": "MOHC-HadREM3-GA7-05",
+        "updated": "2024-01-23T09:08:06.100193Z",
+        "created": "2024-01-23T09:08:06.100193Z"
+    },
+    "links": [
+        {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cordex/items/CORDEX.output.EUR-11.MOHC.MOHC-HadGEM2-ES.rcp85.r1i1p1.MOHC-HadREM3-GA7-05.v1.day.tasmin.v20200330.json"
+        },
+        {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cordex.json"
+        },
+        {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cordex.json"
+        },
+        {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        }
+    ],
+    "assets": {
+        "reference_file": {
+            "checksum": null,
+            "checksum_type": null,
+            "href": "https://dap.ceda.ac.uk/badc/cordex/metadata/kerchunk/by_dset/cordex/output/EUR-11/MOHC/MOHC-HadGEM2-ES/CORDEX.output.EUR-11.MOHC.MOHC-HadGEM2-ES.rcp85.r1i1p1.MOHC-HadREM3-GA7-05.v1.day.tasmin.v20200330.zstd",
+            "roles": [
+                "reference"
+            ],
+            "size": null,
+            "type": "application/zstd",
+            "open_zarr_kwargs": {
+                "decode_times": true
+            }
+        },
+        "tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20210101-20251230.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MOHC-HadGEM2-ES/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/tasmin/v20200330/tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20210101-20251230.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2021-01-01T00:00:00/2025-12-30T23:59:59",
+            "area": [
+                -44.59386834729085,
+                21.98783123900341,
+                64.96437779289664,
+                72.58500263822741
+            ]
+        },
+        "tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20260101-20301230.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MOHC-HadGEM2-ES/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/tasmin/v20200330/tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20260101-20301230.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2026-01-01T00:00:00/2030-12-30T23:59:59",
+            "area": [
+                -44.59386834729085,
+                21.98783123900341,
+                64.96437779289664,
+                72.58500263822741
+            ]
+        },
+        "tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20460101-20501230.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MOHC-HadGEM2-ES/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/tasmin/v20200330/tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20460101-20501230.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2046-01-01T00:00:00/2050-12-30T23:59:59",
+            "area": [
+                -44.59386834729085,
+                21.98783123900341,
+                64.96437779289664,
+                72.58500263822741
+            ]
+        },
+        "tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20510101-20551230.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MOHC-HadGEM2-ES/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/tasmin/v20200330/tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20510101-20551230.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2051-01-01T00:00:00/2055-12-30T23:59:59",
+            "area": [
+                -44.59386834729085,
+                21.98783123900341,
+                64.96437779289664,
+                72.58500263822741
+            ]
+        },
+        "tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20560101-20601230.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MOHC-HadGEM2-ES/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/tasmin/v20200330/tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20560101-20601230.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2056-01-01T00:00:00/2060-12-30T23:59:59",
+            "area": [
+                -44.59386834729085,
+                21.98783123900341,
+                64.96437779289664,
+                72.58500263822741
+            ]
+        },
+        "tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20610101-20651230.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MOHC-HadGEM2-ES/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/tasmin/v20200330/tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20610101-20651230.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2061-01-01T00:00:00/2065-12-30T23:59:59",
+            "area": [
+                -44.59386834729085,
+                21.98783123900341,
+                64.96437779289664,
+                72.58500263822741
+            ]
+        },
+        "tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20710101-20751230.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MOHC-HadGEM2-ES/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/tasmin/v20200330/tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20710101-20751230.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2071-01-01T00:00:00/2075-12-30T23:59:59",
+            "area": [
+                -44.59386834729085,
+                21.98783123900341,
+                64.96437779289664,
+                72.58500263822741
+            ]
+        },
+        "tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20760101-20801230.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MOHC-HadGEM2-ES/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/tasmin/v20200330/tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20760101-20801230.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2076-01-01T00:00:00/2080-12-30T23:59:59",
+            "area": [
+                -44.59386834729085,
+                21.98783123900341,
+                64.96437779289664,
+                72.58500263822741
+            ]
+        },
+        "tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20860101-20901230.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MOHC-HadGEM2-ES/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/tasmin/v20200330/tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20860101-20901230.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2086-01-01T00:00:00/2090-12-30T23:59:59",
+            "area": [
+                -44.59386834729085,
+                21.98783123900341,
+                64.96437779289664,
+                72.58500263822741
+            ]
+        },
+        "tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20960101-20991219.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MOHC-HadGEM2-ES/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/tasmin/v20200330/tasmin_EUR-11_MOHC-HadGEM2-ES_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20960101-20991219.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2096-01-01T00:00:00/2099-12-19T23:59:59",
+            "area": [
+                -44.59386834729085,
+                21.98783123900341,
+                64.96437779289664,
+                72.58500263822741
+            ]
+        }
+    }
+}

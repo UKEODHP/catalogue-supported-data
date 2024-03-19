@@ -1,0 +1,132 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "stac_extensions": [],
+    "id": "CMIP6.ScenarioMIP.THU.CIESM.ssp585.r1i1p1f1.Amon.rlus.gr.v20200806",
+    "collection": "cmip6",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -180.0,
+                    -90.0
+                ],
+                [
+                    178.75,
+                    -90.0
+                ],
+                [
+                    178.75,
+                    90.0
+                ],
+                [
+                    -180.0,
+                    90.0
+                ],
+                [
+                    -180.0,
+                    -90.0
+                ]
+            ]
+        ]
+    },
+    "bbox": [
+        -180.0,
+        -90.0,
+        178.75,
+        90.0
+    ],
+    "properties": {
+        "datetime": "4072-01-01T00:00:00Z",
+        "start_datetime": "4029-01-16T12:00:00Z",
+        "end_datetime": "4114-12-16T12:00:00Z",
+        "access": [
+            "HTTPServer"
+        ],
+        "index_node": null,
+        "latest": true,
+        "pid": null,
+        "replica": false,
+        "retracted": false,
+        "instance_id": "CMIP6.ScenarioMIP.THU.CIESM.ssp585.r1i1p1f1.Amon.rlus.gr.v20200806",
+        "citation_url": "http:/cera-www.dkrz.de/WDCC/meta/CMIP6/CMIP6.ScenarioMIP.THU.CIESM.ssp585.r1i1p1f1.Amon.rlus.gr.v20200806.json",
+        "variable_long_name": "Surface Upwelling Longwave Radiation",
+        "variable_units": "W m-2",
+        "cf_standard_name": "surface_upwelling_longwave_flux_in_air",
+        "activity_id": "ScenarioMIP",
+        "data_specs_version": "01.00.29",
+        "experiment_title": "update of RCP8.5 based on SSP5",
+        "frequency": "mon",
+        "further_info_url": "https://furtherinfo.es-doc.org/CMIP6.THU.CIESM.ssp585.none.r1i1p1f1",
+        "grid": "gs1x1",
+        "grid_label": "gr",
+        "institution_id": "THU",
+        "mip_era": "CMIP6",
+        "source_id": "CIESM",
+        "source_type": "AOGCM",
+        "experiment_id": "ssp585",
+        "sub_experiment_id": "none",
+        "nominal_resolution": "100 km",
+        "table_id": "Amon",
+        "variable_id": "rlus",
+        "variant_label": "r1i1p1f1",
+        "levels": null,
+        "updated": "2024-02-20T20:41:35.048023Z",
+        "created": "2024-02-20T20:41:35.048023Z"
+    },
+    "links": [
+        {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6/items/CMIP6.ScenarioMIP.THU.CIESM.ssp585.r1i1p1f1.Amon.rlus.gr.v20200806.json"
+        },
+        {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json"
+        },
+        {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cmip6.json"
+        },
+        {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        }
+    ],
+    "assets": {
+        "reference_file": {
+            "checksum": null,
+            "checksum_type": null,
+            "href": "https://dap.ceda.ac.uk/badc/cmip6/metadata/kerchunk/pipeline1/ScenarioMIP/THU/CIESM/kr1.0/CMIP6_ScenarioMIP_THU_CIESM_ssp585_r1i1p1f1_Amon_rlus_gr_v20200806_kr1.0.json",
+            "roles": [
+                "reference",
+                "data"
+            ],
+            "size": null,
+            "type": "application/zstd",
+            "open_zarr_kwargs": {
+                "decode_times": true
+            }
+        },
+        "data0001": {
+            "href": "https://dap.ceda.ac.uk/badc/cmip6/data/CMIP6/ScenarioMIP/THU/CIESM/ssp585/r1i1p1f1/Amon/rlus/gr/v20200806/rlus_Amon_CIESM_ssp585_r1i1p1f1_gr_402901-411412.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "4029-01-01T00:00:00/4114-12-31T23:59:59",
+            "area": [
+                -180.0,
+                -90.0,
+                178.75,
+                90.0
+            ]
+        }
+    }
+}

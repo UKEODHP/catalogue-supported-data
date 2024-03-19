@@ -1,0 +1,271 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0",
+    "stac_extensions": [],
+    "id": "CORDEX.output.EUR-11.MOHC.MPI-M-MPI-ESM-LR.rcp85.r1i1p1.MOHC-HadREM3-GA7-05.v1.day.huss.v20200706",
+    "collection": "cordex",
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -44.59389929190458,
+                    21.987818474093213
+                ],
+                [
+                    64.964312753777,
+                    21.987818474093213
+                ],
+                [
+                    64.964312753777,
+                    72.58499752196883
+                ],
+                [
+                    -44.59389929190458,
+                    72.58499752196883
+                ],
+                [
+                    -44.59389929190458,
+                    21.987818474093213
+                ]
+            ]
+        ]
+    },
+    "bbox": [
+        -44.59389929190458,
+        21.987818474093213,
+        64.964312753777,
+        72.58499752196883
+    ],
+    "properties": {
+        "datetime": "2060-12-31T12:00:00Z",
+        "start_datetime": "2021-01-01T12:00:00Z",
+        "end_datetime": "2100-12-31T12:00:00Z",
+        "access": [
+            "HTTPServer"
+        ],
+        "index_node": null,
+        "latest": true,
+        "pid": null,
+        "replica": false,
+        "retracted": false,
+        "file_count": 10,
+        "size": 0,
+        "variable_id": "huss",
+        "instance_id": "CORDEX.output.EUR-11.MOHC.MPI-M-MPI-ESM-LR.rcp85.r1i1p1.MOHC-HadREM3-GA7-05.v1.day.huss.v20200706",
+        "variable_long_name": "Near-Surface Specific Humidity",
+        "variable_units": "1",
+        "cf_standard_name": "specific_humidity",
+        "driving_experiment_name": "rcp85",
+        "rcm_version": "v1",
+        "experiment_familys": null,
+        "product": "output",
+        "domain": "EUR-11",
+        "driving_model": "MPI-M-MPI-ESM-LR",
+        "time_frequency": "day",
+        "experiment": "rcp85",
+        "project": "CORDEX",
+        "institute": "MOHC",
+        "ensemble": "r1i1p1",
+        "rcm_name": "MOHC-HadREM3-GA7-05",
+        "updated": "2024-01-23T09:10:21.971145Z",
+        "created": "2024-01-23T09:10:21.971145Z"
+    },
+    "links": [
+        {
+            "rel": "self",
+            "type": "application/geo+json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cordex/items/CORDEX.output.EUR-11.MOHC.MPI-M-MPI-ESM-LR.rcp85.r1i1p1.MOHC-HadREM3-GA7-05.v1.day.huss.v20200706.json"
+        },
+        {
+            "rel": "parent",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cordex.json"
+        },
+        {
+            "rel": "collection",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/collections/cordex.json"
+        },
+        {
+            "rel": "root",
+            "type": "application/json",
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+        }
+    ],
+    "assets": {
+        "reference_file": {
+            "checksum": null,
+            "checksum_type": null,
+            "href": "https://dap.ceda.ac.uk/badc/cordex/metadata/kerchunk/by_dset/cordex/output/EUR-11/MOHC/MPI-M-MPI-ESM-LR/CORDEX.output.EUR-11.MOHC.MPI-M-MPI-ESM-LR.rcp85.r1i1p1.MOHC-HadREM3-GA7-05.v1.day.huss.v20200706.zstd",
+            "roles": [
+                "reference"
+            ],
+            "size": null,
+            "type": "application/zstd",
+            "open_zarr_kwargs": {
+                "decode_times": true
+            }
+        },
+        "huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20210101-20251231.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MPI-M-MPI-ESM-LR/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/huss/v20200706/huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20210101-20251231.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2021-01-01T00:00:00/2025-12-31T23:59:59",
+            "area": [
+                -44.59389929190458,
+                21.987818474093213,
+                64.964312753777,
+                72.58499752196883
+            ]
+        },
+        "huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20260101-20301231.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MPI-M-MPI-ESM-LR/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/huss/v20200706/huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20260101-20301231.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2026-01-01T00:00:00/2030-12-31T23:59:59",
+            "area": [
+                -44.59389929190458,
+                21.987818474093213,
+                64.964312753777,
+                72.58499752196883
+            ]
+        },
+        "huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20360101-20401231.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MPI-M-MPI-ESM-LR/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/huss/v20200706/huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20360101-20401231.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2036-01-01T00:00:00/2040-12-31T23:59:59",
+            "area": [
+                -44.59389929190458,
+                21.987818474093213,
+                64.964312753777,
+                72.58499752196883
+            ]
+        },
+        "huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20460101-20501231.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MPI-M-MPI-ESM-LR/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/huss/v20200706/huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20460101-20501231.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2046-01-01T00:00:00/2050-12-31T23:59:59",
+            "area": [
+                -44.59389929190458,
+                21.987818474093213,
+                64.964312753777,
+                72.58499752196883
+            ]
+        },
+        "huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20510101-20551231.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MPI-M-MPI-ESM-LR/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/huss/v20200706/huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20510101-20551231.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2051-01-01T00:00:00/2055-12-31T23:59:59",
+            "area": [
+                -44.59389929190458,
+                21.987818474093213,
+                64.964312753777,
+                72.58499752196883
+            ]
+        },
+        "huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20560101-20601231.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MPI-M-MPI-ESM-LR/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/huss/v20200706/huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20560101-20601231.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2056-01-01T00:00:00/2060-12-31T23:59:59",
+            "area": [
+                -44.59389929190458,
+                21.987818474093213,
+                64.964312753777,
+                72.58499752196883
+            ]
+        },
+        "huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20610101-20651231.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MPI-M-MPI-ESM-LR/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/huss/v20200706/huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20610101-20651231.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2061-01-01T00:00:00/2065-12-31T23:59:59",
+            "area": [
+                -44.59389929190458,
+                21.987818474093213,
+                64.964312753777,
+                72.58499752196883
+            ]
+        },
+        "huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20810101-20851231.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MPI-M-MPI-ESM-LR/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/huss/v20200706/huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20810101-20851231.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2081-01-01T00:00:00/2085-12-31T23:59:59",
+            "area": [
+                -44.59389929190458,
+                21.987818474093213,
+                64.964312753777,
+                72.58499752196883
+            ]
+        },
+        "huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20860101-20901231.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MPI-M-MPI-ESM-LR/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/huss/v20200706/huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20860101-20901231.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2086-01-01T00:00:00/2090-12-31T23:59:59",
+            "area": [
+                -44.59389929190458,
+                21.987818474093213,
+                64.964312753777,
+                72.58499752196883
+            ]
+        },
+        "huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20960101-21001231.nc": {
+            "href": "https://dap.ceda.ac.uk/badc/cordex/data/CORDEX/output/EUR-11/MOHC/MPI-M-MPI-ESM-LR/rcp85/r1i1p1/MOHC-HadREM3-GA7-05/v1/day/huss/v20200706/huss_EUR-11_MPI-M-MPI-ESM-LR_rcp85_r1i1p1_MOHC-HadREM3-GA7-05_v1_day_20960101-21001231.nc",
+            "roles": [
+                "data"
+            ],
+            "checksum": null,
+            "checksum_type": null,
+            "type": "application/netcdf",
+            "time": "2096-01-01T00:00:00/2100-12-31T23:59:59",
+            "area": [
+                -44.59389929190458,
+                21.987818474093213,
+                64.964312753777,
+                72.58499752196883
+            ]
+        }
+    }
+}
