@@ -1,8 +1,8 @@
 {
     "type": "Catalog",
     "id": "stac-fastapi",
-    "title": "stac-fastapi",
-    "description": "stac-fastapi",
+    "title": "Supported Datasets",
+    "description": "Catalogue containing supported datasets",
     "stac_version": "1.0.0",
     "conformsTo": [
         "http:/www.opengis.net/spec/ogcapi-features-3/1.0/conf/features-filter",
@@ -32,7 +32,7 @@
         {
             "rel": "root",
             "type": "application/json",
-            "href": "https://dev.eodatahub.org.uk/catalogue-data/supported/catalog.json"
+            "href": "https://dev.eodatahub.org.uk/catalogue-data/catalog.json"
         },
         {
             "rel": "data",
